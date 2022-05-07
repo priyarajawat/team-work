@@ -206,6 +206,29 @@ function womens(ele){
    
    
  }
+
+ 
+ function signupPage() {
+    window.location.href = "sign-up.html"
+}
+
+function cartpage() {
+    window.location.href = "cart.html"
+}
+
+function CustomerPage() {
+    window.location.href = "login.html"
+}
+function marchantpage() {
+    window.location.href = "womens.html"
+}
+function become() {
+    window.location.href = "sign-up.html"
+}
+ 
+function Fashionpage() {
+    window.location.href = "footwares.html"
+}
    
    
 
