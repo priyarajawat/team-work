@@ -6,12 +6,16 @@
     margin: auto;
     width: 70%;
     margin-top: 20px;
+    color: rgb(21, 22, 22);
+    background-color: rgb(242, 235, 245);
+    border-radius: 30px;
 }
 #container>div:hover{
-    color: rgb(183, 163, 166);
-    background-color: rgb(88, 86, 84);
+    color: rgb(37, 34, 35);
+    background-color: rgb(146, 146, 124);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     cursor: pointer;
+    border-radius: 20px;
 }
 #category{
     background-color: rgb(251, 248, 248);
@@ -19,6 +23,17 @@
     font-size: 20px;
     border: 0px;
     font-weight: bold;
+}
+i{
+    margin-top: -48px;
+    margin-left: 10px;
+    font-size: 25px;
+    
+}
+i:hover{
+    color: rgb(251, 80, 80);
+    background-color: white;
+    cursor: pointer;
 }
 img{
     height: 250px;
@@ -29,9 +44,10 @@ h3+p{
     text-align: center;
     text-decoration: line-through;
     font-size: 20px;
-    color: grey;
+    color: rgb(78, 75, 75);
     margin-right: 60px;
     font-size: 20px;
+    font-weight: bold;
 }
 h3{
     text-align: center;
@@ -95,6 +111,7 @@ input{
     border-radius: 20px;
     margin-top: -50px;
     border: 0px;
+    margin-left: 30px;
 }
 .head{
     text-align: center;
@@ -190,16 +207,21 @@ input{
     margin-top: 100px;
     color: white;
 }
-button{
+#cart{
     margin-left:85%;
-    padding: 10px 15px 10px 15px;
+    padding: 15px 15px 15px 15px;
     border-radius: 20px;
    border: 0px;
     cursor: pointer;
+    width: 3%;
+    height: 50px;
+    margin-top: -250px;
+   
 }
-button:hover{
-    color: white;
-    background-color: black;
+#cart:hover{
+    color: rgb(242, 231, 231);
+    background-color: rgb(11, 11, 11);
+    border-radius: 30px;
 
 }
 

@@ -217,7 +217,7 @@ function cartpage() {
 }
 
 function CustomerPage() {
-    window.location.href = "login.html"
+    window.location.href = "sign-up.html"
 }
 function marchantpage() {
     window.location.href = "womens.html"
