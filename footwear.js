@@ -246,6 +246,7 @@ display(foot)
 function footware(ele){
     console.log(ele)
    arrfoot.push(ele);
+   alert("Product added Successfully")
    localStorage.setItem("cart1",JSON.stringify(arrfoot));
    
    

@@ -272,6 +272,7 @@ function submit(){
 function mens(ele){
     console.log(ele)
    arr.push(ele);
+   alert("Product added Successfully")
    localStorage.setItem("cart1",JSON.stringify(arr));
  
  }
