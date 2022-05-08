@@ -6,6 +6,9 @@
     background-color: rgb(3, 66, 66);
     margin: auto;
 }
+#category{
+    border :0px;
+}
 #second{
     margin-top: 30px; 
     margin-right: 50px;
@@ -40,8 +43,8 @@
 }
 #nav p{
     padding: 10px;
-    color: white;
-    background-color: black;
+    
+    background-color: greenyellow;
 }
 #nav>div{
     display:flex;
@@ -115,6 +118,7 @@ img+h1{
 }
 #o>div>div{
     width: 20%;
+    /* border:1 */
 }
 #o>div{
     padding: 50px;
@@ -129,8 +133,8 @@ button{
     padding: 10px;
 }
 button:hover{
-    color: blue;
-    background-color: aqua;
+    color: white;
+    background-color: blueviolet;
 }
 #w{
     color: white;
@@ -145,6 +149,10 @@ button:hover{
     cursor: pointer;
     margin-top: 5px;
   padding-top: 50px;
+}
+#nav > p{
+    cursor:pointer;
+    color:white;
 }
 #w>div+div{
     display: flex;
