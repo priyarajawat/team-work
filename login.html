@@ -102,7 +102,7 @@
 
 </html>
 <script>
-    var redirect = localStorage.getItem("usersignupdata");
+    var redirect = localStorage.getItem("redirect");
     document.querySelector("form").addEventListener("submit",myFunction);
     var userDataArr = JSON.parse(localStorage.getItem("userData"))||[];
     function myFunction () {
